@@ -71,10 +71,10 @@ public class BrowserTest {
         } 
 		
 		WebElement searchBoxFrom = driver.findElement(By.id("C_E_POSTA"));
-		searchBoxFrom.sendKeys("beykan_sevdar@hotmail.com");
+		searchBoxFrom.sendKeys("********r@hotmail.com");
 		Thread.sleep(1000);
 		WebElement searchBoxTo = driver.findElement(By.id("C_SIFRE"));
-		searchBoxTo.sendKeys("Fearless12!");
+		searchBoxTo.sendKeys("*******");
 		Thread.sleep(1000);
 		WebElement button2 = driver.findElement(By.id("C_ButtonOK"));
 		button2.click();
